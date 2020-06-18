@@ -21,4 +21,9 @@ describe Scrabble do
     scrabble = Scrabble.new('cat')
     expect(scrabble.score).to eq(5)
   end
+
+  it 'has a method that returns 5 for dog' do
+    scrabble = Scrabble.new('dog')
+    expect(scrabble.score).to eq(5)
+  end
 end
