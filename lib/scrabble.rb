@@ -7,6 +7,8 @@ class Scrabble
   def score
     if @word ==  'a'
       1
+    elsif @word == 'aa'
+      2
     else
       4
     end

@@ -60,6 +60,7 @@ scrabble.score # => 41
 Input         Output
 a             1
 f             4
+aa            2
 street        6
 quirky        22
 CAT           5
