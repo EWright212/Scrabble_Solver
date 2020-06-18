@@ -56,3 +56,18 @@ scrabble.score # => 22
 
 scrabble = Scrabble.new('OXYPHENBUTAZONE')
 scrabble.score # => 41
+
+Input         Output
+a             1
+f             4
+street        6
+quirky        22
+CAT           5
+DOG           5
+OXYPHENBUTAZONE 41
+
+Edge cases:
+''            0
+nil           0
+ \t\n         0
+
