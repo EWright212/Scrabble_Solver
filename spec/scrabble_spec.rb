@@ -16,4 +16,9 @@ describe Scrabble do
     scrabble = Scrabble.new('aa')
     expect(scrabble.score).to eq(2)
   end
+
+  it 'has a method that returns 5 for cat' do
+    scrabble = Scrabble.new('cat')
+    expect(scrabble.score).to eq(5)
+  end
 end
